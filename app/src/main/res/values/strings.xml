@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SuperCar</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="choose_available_dates">Choose available dates</string>
+    <string name="emergencies">Emergencies</string>
+    <string name="logout">Logout</string>
+</resources>

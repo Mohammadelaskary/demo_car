@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "55462070757",
+    "project_id": "fir-car-8c0c2",
+    "storage_bucket": "fir-car-8c0c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55462070757:android:63e38d60f8b3b96868c70c",
+        "android_client_info": {
+          "package_name": "com.example.democar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55462070757-628kh6h983hcjoluc32542slj4ds1t3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyUxkWf7dwaQzG-7eAshsBlNPXxKnOdw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55462070757-628kh6h983hcjoluc32542slj4ds1t3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

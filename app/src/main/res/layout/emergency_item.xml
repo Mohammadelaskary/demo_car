@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:padding="@dimen/_5sdp"
+    android:background="#EFEEEE"
+    android:gravity="center_vertical">
+    <ImageView
+        android:id="@+id/bullet"
+        android:layout_width="@dimen/_10sdp"
+        android:layout_height="@dimen/_10sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="?attr/colorPrimary"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_toStartOf="@id/emergency_button"
+        android:layout_toEndOf="@id/bullet"
+        android:text="What Do I Do When Your Car Tire Exploded?"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/emergency_button"
+        android:layout_width="@dimen/_28sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:shadowColor="@android:color/transparent"
+        app:cornerRadius="@dimen/_20sdp"
+        app:icon="@drawable/ic_arrow_in_circle"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp" />
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/date_background.xml" value="0.18076923076923077" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/date_item_background.xml" value="0.13914473684210527" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/ic__left_triangle.xml" value="0.18076923076923077" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/ic_add.xml" value="0.13914473684210527" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/ic_add_a_photo.xml" value="0.1" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/ic_arrow_in_circle.xml" value="0.17848101265822786" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/ic_edit_calendar.xml" value="0.18076923076923077" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/ic_exclamation_mark.xml" value="0.18076923076923077" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/ic_image.xml" value="0.13914473684210527" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/ic_mechanic_tools.xml" value="0.18888888888888888" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/ic_mechanic_tools_black.xml" value="0.18076923076923077" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/ic_notifications.xml" value="0.18076923076923077" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/ic_orange_notifications.xml" value="0.18076923076923077" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/image_background.xml" value="0.18076923076923077" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/notification_body_background.xml" value="0.18076923076923077" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/notification_button_background.xml" value="0.18076923076923077" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/notification_button_background_pressed.xml" value="0.9625" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/notification_button_background_unpressed.xml" value="0.18076923076923077" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/orange_circle.xml" value="0.18076923076923077" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/workshop_bullet.xml" value="0.18076923076923077" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_add_workshop.xml" value="0.15" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_book_appointment.xml" value="0.1778846153846154" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_dates.xml" value="0.18" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_emergency.xml" value="0.1675213675213675" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_emergency_details.xml" value="0.12894736842105264" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_notifications.xml" value="0.1675213675213675" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/dates_item.xml" value="0.16" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/emergency_item.xml" value="0.22" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/notification_item.xml" value="0.25" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/seen_notification_item.xml" value="0.1675213675213675" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/workshop_image_item.xml" value="0.12894736842105264" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/workshops_item.xml" value="0.14" />
+        <entry key="..\:/DemoCar/app/src/main/res/menu/empty.xml" value="0.12894736842105264" />
+        <entry key="..\:/DemoCar/app/src/main/res/menu/logout.xml" value="0.1" />
+        <entry key="..\:/DemoCar/app/src/main/res/menu/navigation_drawer.xml" value="0.12894736842105264" />
+        <entry key="..\:/DemoCar/app/src/main/res/menu/navigation_drawer_user.xml" value="0.1" />
+        <entry key="..\:/DemoCar/app/src/main/res/menu/navigation_drawer_workshop.xml" value="0.12894736842105264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
