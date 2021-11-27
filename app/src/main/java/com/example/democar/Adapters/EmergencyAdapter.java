@@ -14,6 +14,7 @@ import com.example.democar.MainActivity;
 import com.example.democar.Model.Emergency;
 import com.example.democar.databinding.EmergencyItemBinding;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class EmergencyAdapter extends RecyclerView.Adapter<EmergencyAdapter.EmergencyViewHolder> {
@@ -35,13 +36,15 @@ public class EmergencyAdapter extends RecyclerView.Adapter<EmergencyAdapter.Emer
     @Override
     public void onBindViewHolder(@NonNull EmergencyAdapter.EmergencyViewHolder holder, int position) {
         Emergency emergency = emergencies.get(position);
-        String body = emergency.getBody();
+        String body = emergency.getSteps();
         String question = emergency.getQuestion();
+        ArrayList<Integer> images = emergency.getImages();
         holder.binding.question.setText(question);
         holder.itemView.setOnClickListener(v->{
             Intent intent = new Intent(context, EmergencyDetailsActivity.class);
             intent.putExtra("title",question);
             intent.putExtra("body",body);
+            intent.putIntegerArrayListExtra("images",images);
             ActivityOptions options =
                     ActivityOptions.makeCustomAnimation(context, android.R.anim.slide_in_left, android.R.anim.fade_out);
             context.startActivity(intent,options.toBundle());

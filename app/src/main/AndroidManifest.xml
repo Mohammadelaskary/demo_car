@@ -13,8 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DemoCar">
         <activity
+            android:name=".WinchesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OurServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FrequentlyQuestionsActivity"
+            android:exported="false" />
+        <activity
             android:name=".EmergencyDetailsActivity"
-            android:exported="true" />
+            android:exported="true" >
+
+        </activity>
         <activity
             android:name=".AddWorkshopActivity"
             android:exported="true" />
@@ -41,7 +52,9 @@
             android:exported="true" />
         <activity
             android:name=".EmergencyActivity"
-            android:exported="true" />
+            android:exported="true" >
+
+        </activity>
         <activity
             android:name=".LoginActivity"
             android:exported="true" />

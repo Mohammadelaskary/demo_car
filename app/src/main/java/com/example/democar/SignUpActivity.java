@@ -131,15 +131,19 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     private void uploadUser(User user) {
         DatabaseReference reference = database.getReference("Users");
         reference.push().setValue(user).addOnCompleteListener(task -> {
-            Toast.makeText(this, "User created successfully..", Toast.LENGTH_SHORT).show();
-            progressDialog.hide();
-            Intent intent = new Intent(SignUpActivity.this,MainActivity.class);
-            intent.putExtra("user",true);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP|Intent.FLAG_ACTIVITY_NEW_TASK);
-            ActivityOptions options =
-                    ActivityOptions.makeCustomAnimation(SignUpActivity.this, android.R.anim.slide_in_left, android.R.anim.slide_out_right);
-            startActivity(intent,options.toBundle());
-            finish();
+            if(task.isSuccessful()) {
+                Toast.makeText(this, "User created successfully..", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
+                intent.putExtra("user", true);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                ActivityOptions options =
+                        ActivityOptions.makeCustomAnimation(SignUpActivity.this, android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+                startActivity(intent, options.toBundle());
+                finish();
+            } else {
+                Log.d("signUpError",task.getException().getMessage());
+            }
+            progressDialog.dismiss();
         });
     }
     AlertDialog progressDialog;
@@ -155,8 +159,8 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
             } else {
                 String errorMessage = task.getException().getMessage();
                 Toast.makeText(this, errorMessage, Toast.LENGTH_SHORT).show();
-                Log.d("signupError",errorMessage);
-                progressDialog.hide();
+                Log.d("signUpError",errorMessage);
+                progressDialog.dismiss();
             }
         });
     }

@@ -118,10 +118,10 @@
                 android:layout_marginEnd="@dimen/_10sdp"
                 android:text="Login"
                 android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_50sdp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/password"
-                 app:layout_constraintBottom_toBottomOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/password" />
 
             <LinearLayout
                 android:id="@+id/create_account_layout"
@@ -148,7 +148,48 @@
                     android:backgroundTint="@color/white"
                     android:text="Sign up" />
             </LinearLayout>
-
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="#ddd"
+            app:layout_constraintTop_toBottomOf="@id/create_account_layout"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/frequently_questions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:text="Frequently Questions"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/our_services"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:text="Our services"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/frequently_questions" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/winches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:text="Winches"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/our_services" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 

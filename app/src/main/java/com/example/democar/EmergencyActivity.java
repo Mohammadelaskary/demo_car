@@ -39,41 +39,28 @@ public class EmergencyActivity extends AppCompatActivity implements View.OnClick
     }
 
     private void addEmergenciesDummyData() {
-        Emergency emergency = new Emergency("What Do You Do When A Car Tire Explodes?","Having your tire blowout while driving can be one of the scariest moments on the road. While you should always try to prevent tire blowouts, it’s also helpful to know what to do in the moment. If you find yourself facing a tire blow out, remember to never jerk your steering wheel or slam on the brakes as this can lead to immense danger. Instead, keep calm, let your car naturally slow down, and get to a safe place!\n" +
-                "       -١-\n" +
-                "Listen for telltale signs. There are three sounds associated with tire blowouts, and they happen in quick succession. First, you’ll hear a loud boom, shortly followed by a whooshing sound as the air rushes out of your tire. When the air has left, you’ll hear a flapping sound, which is the sound of your tire hitting the road\n" +
-                "        -٢-\n" +
-                "Recognize changes in your steering wheel. After a tire blowout, your car will probably become difficult to steer. This can be indicative of a slower blowout, which might not have caused as much noise as a blowout explosion.\n" +
-                "     -٣-\n" +
-                "Notice if the car starts pulling in one direction. In the event of a blowout, your car will start pulling sharply towards the direction of the blown tire, regardless if the front or wheel tire blew out. This, more than any other sign, is an indication that your tire has blown out");
-        Emergency emergency1 = new Emergency("What Do You Do When Smoke Comes Out Of The Car?","A little bit of white smoke from the exhaust on a cold morning can just mean steam, and is fairly normal.\n" +
-                "\n" +
-                "But what’s a normal amount of smoke from your car – and what should you call the service department up for?\n" +
-                "\n" +
-                "Overall, your car shouldn’t blow a lot of smoke, especially if it’s a newer model that should have all sorts of filters in the engine to stop pollution. Older cars should usually run fairly clear as well – as long as they’ve been properly serviced – but you might expect an older car to blow a little bit more smoke than usual, but not so much that you’re blinding other cars on the road.\n" +
-                "\n" +
-                "There are three colours of smoke that commonly indicate a problem with the engine, and you should take notice if your car starts to produce excess smoke.\n" +
-                "BLUE SMOKE\n" +
-                "Blue smoke usually indicates a problem with oil, and can often be confused for white smoke leading to bigger problems down the line if the right parts aren’t addressed at service.  While it’s commonly called ‘blue’ smoke, it’s commonly more of a purple-grey or a very light blue.\n" +
-                "\n" +
-                "This smoke is often accompanied by an overall loss of power, or the car struggling to accelerate. This is certainly the case with turbocharged cars – as blue smoke can also mean that the turbocharger has something wrong with it.\n" +
-                "\n" +
-                "On a regular, petrol-powered vehicle, blue smoke from the exhaust usually means that the car is burning oil – but there can be several causes for this. There may be a leaking valve, which is letting oil get into places in the engine that it’s not supposed to, causing smoke to come out of the exhaust. If your exhaust starts blowing blue smoke, it's best to pull over and call your roadside assistance provider, if you have one. If you keep driving, not only are you creating a hazard for other road users, any leaking oil could catch fire in your engine bay.\n" +
-                "\n" +
-                "\n" +
-                "BLACK SMOKE\n" +
-                "Black smoke from the exhaust points to a problem with the fuel, which is either contaminated or mixing too heavily with oil in the engine (it’s supposed to mix, but with the right balance of oil and fuel). If it’s just a burst of smoke that then clears, then there shouldn’t be a serious problem – but it’s probably worth mentioning it to your service advisor at your next service.\n" +
-                "\n" +
-                "If there is an excess amount of black smoke pouring out of your exhaust, then you have a bigger problem. The sensors, injection system or fuel line may not be functioning properly, all of which will need a trip to the workshop to address the problem. Leaving the problem may cause you to use more fuel than usual, as well as creating a hazard on the road and potentially making your car unroadworthy. As with blue smoke, it's best not to keep driving with it, as any fluids coming out of the fuel line are potentially flammable.\n" +
-                "\n" +
-                "\n" +
-                "HOW TO FIX IT\n" +
-                "Fixing a smoking car is a little trickier than topping up fluids, because it’s usually an indicator of a problem that could be more serious than you realise.\n" +
-                "\n" +
-                "You can diagnose or isolate the problem, which will help you tell the service advisor, so that they can get a better idea of what to treat when they’re looking at your vehicle. Take note of any loss of power, or rough running at speed or idle and noises coming from the engine.\n" +
-                "\n" +
-                "Get it towed to a service centre – try not to drive it, because that may damage the engine more.");
-
+        Emergency emergency = new Emergency("How can i change car tires?", "Find a Safe Place to Pull Over\n" +
+                "Use Your Hazard Lights and Parking Brake. \n" +
+                "Check for Materials.\n" +
+                "Loosen the Lug Nuts\n" +
+                "Lift Your Vehicle Off the Ground.\n" +
+                "Remove the Lug Nuts and the Tire\n" +
+                "Place the Spare Tire on the Car\n" +
+                "Replace the Lug Nuts.\n",
+                new ArrayList<Integer>(){{
+                    add(R.drawable.tire1);
+                            add(R.drawable.tire2);
+                            add(R.drawable.tire3);
+                            add(R.drawable.tire4);
+                            add(R.drawable.tire5);
+                }});
+        Emergency emergency1 = new Emergency("What i do for smoke comes out of my car?", "Do a quick visual inspection. You could have run over a plastic bag that is burning on the catalytic converter. Never touch or work on a hot engine. Wait until the engine cools down and check the fluids. However, if you see fluids dripping or puddles forming under the hood or on the ground, it’s time to call for a tow. ",
+                new ArrayList<Integer>(){{
+                    add(R.drawable.smoke1);
+                    add(R.drawable.smoke2);
+                    add(R.drawable.smoke3);
+                    add(R.drawable.smoke4);
+                }});
         emergencies.clear();
         emergencies.add(emergency);
         emergencies.add(emergency1);

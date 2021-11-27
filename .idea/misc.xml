@@ -17,6 +17,7 @@
         <entry key="..\:/DemoCar/app/src/main/res/drawable/ic_notifications.xml" value="0.18076923076923077" />
         <entry key="..\:/DemoCar/app/src/main/res/drawable/ic_orange_notifications.xml" value="0.18076923076923077" />
         <entry key="..\:/DemoCar/app/src/main/res/drawable/image_background.xml" value="0.18076923076923077" />
+        <entry key="..\:/DemoCar/app/src/main/res/drawable/image_border.xml" value="0.13914473684210527" />
         <entry key="..\:/DemoCar/app/src/main/res/drawable/notification_body_background.xml" value="0.18076923076923077" />
         <entry key="..\:/DemoCar/app/src/main/res/drawable/notification_button_background.xml" value="0.18076923076923077" />
         <entry key="..\:/DemoCar/app/src/main/res/drawable/notification_button_background_pressed.xml" value="0.9625" />
@@ -28,13 +29,18 @@
         <entry key="..\:/DemoCar/app/src/main/res/layout/activity_dates.xml" value="0.18" />
         <entry key="..\:/DemoCar/app/src/main/res/layout/activity_emergency.xml" value="0.1675213675213675" />
         <entry key="..\:/DemoCar/app/src/main/res/layout/activity_emergency_details.xml" value="0.12894736842105264" />
-        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_frequently_questions.xml" value="0.12894736842105264" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_login.xml" value="0.16" />
         <entry key="..\:/DemoCar/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/DemoCar/app/src/main/res/layout/activity_notifications.xml" value="0.1675213675213675" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_our_services.xml" value="0.12894736842105264" />
         <entry key="..\:/DemoCar/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
         <entry key="..\:/DemoCar/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/activity_winches.xml" value="0.22" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/address_dialog_layout.xml" value="0.12894736842105264" />
         <entry key="..\:/DemoCar/app/src/main/res/layout/dates_item.xml" value="0.16" />
         <entry key="..\:/DemoCar/app/src/main/res/layout/emergency_item.xml" value="0.22" />
+        <entry key="..\:/DemoCar/app/src/main/res/layout/frequently_question_item.xml" value="0.12894736842105264" />
         <entry key="..\:/DemoCar/app/src/main/res/layout/notification_item.xml" value="0.25" />
         <entry key="..\:/DemoCar/app/src/main/res/layout/seen_notification_item.xml" value="0.1675213675213675" />
         <entry key="..\:/DemoCar/app/src/main/res/layout/workshop_image_item.xml" value="0.12894736842105264" />

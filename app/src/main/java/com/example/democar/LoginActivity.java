@@ -52,6 +52,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private void attachOnClickToButtons() {
         binding.login.setOnClickListener(this);
         binding.signUp.setOnClickListener(this);
+        binding.frequentlyQuestions.setOnClickListener(this);
+        binding.ourServices.setOnClickListener(this);
+        binding.winches.setOnClickListener(this);
     }
 
     private void setUpTextWatchers() {
@@ -104,8 +107,19 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.sign_up: {
                 intent = new Intent(LoginActivity.this, SignUpActivity.class);
                 startActivity(intent, options.toBundle());
-            }
-            break;
+            } break;
+            case R.id.frequently_questions:{
+                intent = new Intent(LoginActivity.this, FrequentlyQuestionsActivity.class);
+                startActivity(intent, options.toBundle());
+            } break;
+            case R.id.our_services:{
+                intent = new Intent(LoginActivity.this, OurServicesActivity.class);
+                startActivity(intent, options.toBundle());
+            } break;
+            case R.id.winches:{
+                intent = new Intent(LoginActivity.this, WinchesActivity.class);
+                startActivity(intent, options.toBundle());
+            } break;
         }
 
     }

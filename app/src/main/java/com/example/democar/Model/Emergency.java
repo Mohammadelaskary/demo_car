@@ -1,15 +1,20 @@
 package com.example.democar.Model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Emergency {
     private String question;
-    private String body;
+    private String steps;
+    private ArrayList<Integer> images;
 
     public Emergency() {
     }
 
-    public Emergency(String question, String body) {
+    public Emergency(String question, String steps, ArrayList<Integer> images) {
         this.question = question;
-        this.body = body;
+        this.steps = steps;
+        this.images = images;
     }
 
     public String getQuestion() {
@@ -20,11 +25,19 @@ public class Emergency {
         this.question = question;
     }
 
-    public String getBody() {
-        return body;
+    public String getSteps() {
+        return steps;
     }
 
-    public void setBody(String body) {
-        this.body = body;
+    public void setSteps(String steps) {
+        this.steps = steps;
+    }
+
+    public ArrayList<Integer> getImages() {
+        return images;
+    }
+
+    public void setImages(ArrayList<Integer> images) {
+        this.images = images;
     }
 }
